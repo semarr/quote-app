@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header CSS */
+header {
+    background-color: indigo;
+    position: sticky;
+}
+
+nav {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.logo, img {
+    width: 40px;
+    float: left;
+    padding-left: 30px;
+    padding-top: 5px;
+    margin: 0 auto;
+}
+
+nav, ul {
+    list-style: none;
+}
+
+nav, li {
+    font-size: 15px;
+    display: inline;
+    margin: 5px 10px;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.link:hover {
+    background-color: white;
+    color: black;
+    padding: 15px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.active {
+    background-color: lavender;
+    color: black;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+
+/* Quote Create */
+.content {
+    display: flex;
+    height: 550px;
+}
+
+.content-quote {
+    background-color: lavender;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 5px;
+}
+
+.quote {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:  70%;
+    height: 70%;
+    margin-top: 20px;
+}
+
+/* background quote */
+.quote {
+    background-position: center;
+    background-size: 80%;
+    border-radius: 10px;
+}
+
+.quote p {
+    font-size: 30px;
+    text-align: center;
+}
+
+aside {
+    background-color: whitesmoke;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    flex-direction: column;
+}
+
+.bg-tema {
+    text-align: center;
+}
+
+.bg-tema button {
+    width: 80px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.font-tema {
+    text-align: center;
+}
+
+.font-tema h3 {
+    margin-top: 10px;
+}
+
+.font-tema button {
+    width: 80px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+/* Home CSS */
+.hal-home {
+    width: 100%;
+    height: 550px;
+    background-color: lavender;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hal-home p {
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.hal-home img {
+    margin-top: 20px;
+    width: 15em;
+}
+
+.hal-design {
+    width: 100%;
+    height: 550px;
+    background-color: lavender;
+    display: flex;
+    align-items: center;
+    
+}
+
+.hal-design img {
+    width: 60%;
+    padding: 0;   
+    margin: 0px 10px;
+}
+
+.hal-design img:hover {
+    width: 80%;
+    padding: 0;   
+    margin: 0px 10px;
+}
+
+/* Footer CSS */
+footer {
+    background-color: indigo;
+    text-align: center;
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+    font-family: 'Gill Sans', Calibri, sans-serif;
+}
